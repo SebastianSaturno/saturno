@@ -88,6 +88,10 @@ img {
 .services {
   text-align: center;
 }
+
+.parrafos {
+  margin-top: 20px;
+}
 /*ANIMACIONES*/
 @keyframes  EntrarDesdeIzq {
   from {
@@ -112,13 +116,15 @@ video {
 /*ESTILOS FOOTER*/
 #footer {
   margin-top: auto;
-  width: 100%;
+  width: 92%;
   height: 240px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 #footer img {
@@ -144,6 +150,7 @@ a {
 }
 
 .footerRedes i {
+  text-align: end;
   color: white;
   font-size: 20px;
 }
